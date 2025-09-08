@@ -32,13 +32,30 @@ fi
 
 # Ensure we are in the directory of this script
 SCRIPT_DIR="$(dirname "$0")"
-pushd "$SCRIPT_DIR" > /dev/null
+pushd "$SCRIPT_DIR" >/dev/null
 pyenv install --skip-existing
 pip install --upgrade pip
 pip install uv
-popd > /dev/null
+popd >/dev/null
 echo -e '\nTo run the Create Jira Issues script (see README.md for more detail):\n'
 echo -e '1. Save your Jira issues to a CSV file.'
 echo -e '2. Ensure you have a Jira API token handy.'
 echo -e "3. Ensure you're in the script directory - \"cd $(realpath "$SCRIPT_DIR")\"."
 echo -e '4. Use command: "uv run create-jira-issues.py"\n'
+
+# Create a bash script which can be double-clicked to open a terminal and run the script
+# This is a convenience for users who may not be comfortable using the terminal
+LAUNCHER_SCRIPT="launch-create-jira-issues-mac.sh"
+cat <<EOF >"$LAUNCHER_SCRIPT"
+#!/usr/bin/env bash
+# A script to launch the Create Jira Issues script in a new terminal window
+osascript <<EOD
+tell application "Terminal"
+    do script "cd \"$(realpath "$SCRIPT_DIR")\" && uv run create-jira-issues.py"
+    activate
+end tell
+EOD
+EOF
+
+# Make the macOS launcher executable
+chmod +x "$LAUNCHER_SCRIPT"
