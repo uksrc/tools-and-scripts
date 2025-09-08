@@ -1,0 +1,148 @@
+Cloud URL,Project Key,Field ID,Field Name,Field Type,Translated Field Type
+https://jira.skatelescope.org,DAAC,customfield_12808,Objectives,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_12807,Stories,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11942,Proof Reading Satisfaction,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11703,Due Sprint,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11948,Feature Points,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_11949,Outcomes,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_17000,Bug Points,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_11810,Realization,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11811,Collaborators,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_11801,Impact,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11803,Probability,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11923,Requirement Status,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11802,Residual Impact,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11805,Exposure,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11804,Residual Probability,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11807,Treatment,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11806,Residual Exposure,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11809,Contingency plan,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_11808,Treatment plan,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_11918,End Date,datetime,Date Time Picker
+https://jira.skatelescope.org,DAAC,customfield_17326,Severity Index,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_15029,T0 PWE,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_15011,Time to remove team member,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_15010,rfSlaIndex,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14168,Date,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_15014,Risk Category,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14820,IPS Finish,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_15903,Original story points,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_14814,Use Cases,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_15904,Team,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_15901,Target start,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_15902,Target end,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_14819,IPS Start,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_15900,Parent Link,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13601,Severity,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14807,Pre-Conditions,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14800,Informed By,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13703,Environment(s),array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13700,SubTasks,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11400,issueFunction,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_12722,Hazard Class_current,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14900,IPS Status,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14905,PDTs,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12721,Hazard Class_original,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_12954,Code,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12953,Documentation,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13802,WBS,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12952,Integration,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12951,Process,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12948,Mitigates Risks,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13900,Steps to Reproduce,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_12810,Features,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13902,Products Impacted,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13901,Links to Log Files,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_12130,ARTs,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_15400,Bugs,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13100,DoD Comments,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_13102,TIMNS,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13101,Tasks,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13103,ECPs,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_12002,Acknowledge,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_12001,Telescope(s),array,Labels
+https://jira.skatelescope.org,DAAC,customfield_15514,Concession Owner,user,User Picker
+https://jira.skatelescope.org,DAAC,customfield_16604,Last Comments,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_12003,Work Package,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_16719,Affected Version(s),string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_13201,Last Comment,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_13200,Child Risk Selector,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13202,Feature Outcomes,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14407,Delivered By,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14405,Affected Version(s) - DEPRECATED,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14400,Technical Debt,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14403,Product Versions,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14404,Fixed By Version(s) ,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_16816,Environment(s),string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_13300,Development,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_11122,Acceptance criteria,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14506,Meeting recording to be shared externally?,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_11116,Transfer Ticket,issue,N/A
+https://jira.skatelescope.org,DAAC,customfield_14500,RiskIndexNumberField,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_12204,TDT Epic,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12203,Workstream,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12316,Link to Confluence,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_15827,Has this plugin been logged in the spreadsheet,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_13404,Structure Index Monitor,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_13400,Resolved PI.Sprint,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_11102,Parent Story,issue,N/A
+https://jira.skatelescope.org,DAAC,customfield_13403,Size Estimate,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_15820,TC Source,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_13402,Shared Teams,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_15821,TC VE ID,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_15815,Predicted Start,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_10005,Epic Name,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_10006,Epic Link,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_15813,Version,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_10007,Epic Status,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_10008,Epic Colour,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_10009,Rank,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_10000,Flagged,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_12300,Start Date,date,Date Picker
+https://jira.skatelescope.org,DAAC,customfield_10002,Story Points,number,Number Field
+https://jira.skatelescope.org,DAAC,customfield_14600,Linked major incidents,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_10004,Sprint,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14142,Solutions,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14143,Problems,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14140,Solves,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14139,Solved by,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_15108,Agile Teams,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14120,Time to close after resolution,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14121,Time to approve normal change,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14000,Approvals,sd-approvals,N/A
+https://jira.skatelescope.org,DAAC,customfield_14003,Organizations,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14004,Satisfaction,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14001,Request participants,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14002,Customer Request Type,sd-customerrequesttype,N/A
+https://jira.skatelescope.org,DAAC,customfield_14007,Activities,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14008,Objective Key Results,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14005,Satisfaction date,datetime,Date Time Picker
+https://jira.skatelescope.org,DAAC,customfield_16425,R&I reject claim countdown to resolve ticket,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14006,Teams,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14119,Time to first response,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14110,CAB,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_15202,Checklists,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14113,Operational categorization,option-with-child,Select List (cascading)
+https://jira.skatelescope.org,DAAC,customfield_15203,Smart Checklist Progress,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14114,Source,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14111,Pending reason,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_17500,Groups,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14112,Product categorization,option-with-child,Select List (cascading)
+https://jira.skatelescope.org,DAAC,customfield_15201,Smart Checklist,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_14117,Workaround,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_14118,Time to resolution,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14115,Investigation reason,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14108,Urgency,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14109,Change managers,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14102,Impact,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14103,Change type,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14101,Approvers,array,Labels
+https://jira.skatelescope.org,DAAC,customfield_14106,Change start date,datetime,Date Time Picker
+https://jira.skatelescope.org,DAAC,customfield_14107,Change completion date,datetime,Date Time Picker
+https://jira.skatelescope.org,DAAC,customfield_14104,Change risk,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_14105,Change reason,option,Select List (single choice) or Checkbox
+https://jira.skatelescope.org,DAAC,customfield_12151,Reject Reason,string,Text Field
+https://jira.skatelescope.org,DAAC,customfield_13001,ECP(s) Affecting this document,any,N/A
+https://jira.skatelescope.org,DAAC,customfield_15420,Time to approve,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_15300,Helpdesk Change SLA,sd-servicelevelagreement,N/A
+https://jira.skatelescope.org,DAAC,customfield_14323,Users who require software,array,Labels
