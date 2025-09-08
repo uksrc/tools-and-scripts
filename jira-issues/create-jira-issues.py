@@ -4,7 +4,6 @@ import json
 import logging
 import os
 from getpass import getpass
-from tkinter import filedialog as fd
 
 from jira import JIRA, JIRAError
 
@@ -15,6 +14,8 @@ jira_domain = "https://jira.skatelescope.org"
 
 
 try:
+    from tkinter import filedialog as fd
+
     csv_filename = fd.askopenfilename(
         title="Select CSV file with Jira issues", filetypes=[("CSV files", "*.csv")]
     )
@@ -34,11 +35,11 @@ if not api_token or use_api_token_env_var.lower() == "n":
     api_token = getpass("Enter your Jira API token: ")
 
 try:
-  jira = JIRA(jira_domain, basic_auth=(user_name, api_token))
+    jira = JIRA(jira_domain, basic_auth=(user_name, api_token))
 except JIRAError as e:
-  logger.error(f"Failed to connect to Jira: {e}")
-  logger.error("Please check your username and API token.")
-  exit(1)
+    logger.error(f"Failed to connect to Jira: {e}")
+    logger.error("Please check your username and API token.")
+    exit(1)
 
 with open(csv_filename, newline="", encoding="utf-8-sig") as csv_file:
     reader = csv.DictReader(csv_file)
