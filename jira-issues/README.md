@@ -2,6 +2,14 @@
 
 This script takes a CSV of Jira issues and creates them on a Jira instance.
 
+## Using the PI-Planning-Template Spreadsheet
+
+There are two ways to use the PI-Planning-Template Spreadsheet.
+
+1. Use the Google Sheets Template with this link - [PI-Planning-Template](https://docs.google.com/spreadsheets/d/1SVHheOKbT-RZLPtXMeCxjWGOSHA4BH3Jpdnakv2f800/edit?usp=sharing).
+
+2. Import the **PI-Planning-Tempate.xlsx** provided in the bundle, this includes the drop downs.
+
 ## Pre-Requisites
 
 If you are a Mac user, you can try using the `setup-mac.sh` script.

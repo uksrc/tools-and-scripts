@@ -1,1 +1,5 @@
 .vscode
+.python-version
+.venv
+.venv/*
+**/.DS_Store
