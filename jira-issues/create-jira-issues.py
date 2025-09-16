@@ -59,7 +59,7 @@ with open(csv_filename, newline="", encoding="utf-8-sig") as csv_file:
             else None,
             "fixVersions": [{"name": row["Fix Versions"]}],
             "customfield_11703": {"value": row["Due Sprint"]} if row["Due Sprint"] else None,
-            "priority": {"name": row["Priority"]},
+            "priority": {"name": row["Priority"] if row["Priority"] else "Low"},
             "labels": row["Labels"].split(",") if row["Labels"] else [],
             "customfield_11949": row["Outcomes"],
             "assignee": {"name": row["Assignee"]},
