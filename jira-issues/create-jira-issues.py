@@ -58,7 +58,7 @@ with open(csv_filename, newline="", encoding="utf-8-sig") as csv_file:
             if row["Story Points"]
             else None,
             "fixVersions": [{"name": row["Fix Versions"]}],
-            "customfield_11703": {"value": row["Due Sprint"]},
+            "customfield_11703": {"value": row["Due Sprint"]} if row["Due Sprint"] else None,
             "priority": {"name": row["Priority"]},
             "labels": row["Labels"].split(",") if row["Labels"] else [],
             "customfield_11949": row["Outcomes"],
