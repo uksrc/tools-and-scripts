@@ -1,0 +1,95 @@
+OS_CLOUD set to : ska-uksrc-cam-node
+
+Lease name: uksrc-cam-prod-k8s-controllers-lease-1
+  reservation amount: 3
+  resource_properties name: vm.ska.cpu.general.v2.sixteenth
+Lease name: uksrc-cam-prod-workers-lease-1
+  reservation amount: 3
+  resource_properties name: vm.ska.cpu.general.v2.quarter
+Lease name: uksrc-cam-staging-k8s-controllers-lease-1
+  reservation amount: 3
+  resource_properties name: vm.ska.cpu.general.v2.sixteenth
+Lease name: uksrc-cam-staging-workers-lease-1
+  reservation amount: 3
+  resource_properties name: vm.ska.cpu.general.v2.sixteenth
+
+OS_CLOUD set to : ska-src-cambridge
+
+Lease name: az-caas-bb23-1gm
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.v2.quarter
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.general.v2.eighth
+Lease name: az-caas-bb23-1gs
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-caas-crhw
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-caas-data-access
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.v2.eighth
+Lease name: az-caas-jfr-build
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.quarter
+Lease name: az-caas-la25-small
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-caas-la25-small-v2
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.v2.eighth
+Lease name: az-caas-rucio-data-handling-1gs
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.v2.eighth
+Lease name: az-caas-test-camp-cathie
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-caas-test-di-service
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-kube-jw-tc1
+  reservation amount: 5
+  resource_properties name: vm.ska.cpu.general.v2.eighth
+
+OS_CLOUD set to : ska-src-science-validations
+
+Lease name: az-caas-ed-gpu-workstation
+  reservation amount: 1
+  resource_properties name: vm.iris.1x.a100.quarter
+Lease name: az-caas-val-slurm2
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.general.full
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.general.small
+Lease name: az-caas-val1-gpu
+  reservation amount: 1
+  resource_properties name: vm.iris.1x.a100.quarter
+Lease name: az-caas-val2-gpu
+  reservation amount: 1
+  resource_properties name: vm.iris.1x.a100.quarter
+Lease name: az-caas-val3b-gpu
+  reservation amount: 1
+  resource_properties name: vm.iris.1x.a100.quarter
+Lease name: az-caas-val4b-gpu
+  reservation amount: 1
+  resource_properties name: vm.iris.1x.a100.quarter
+
+
+OS_CLOUD set to : ska-teal-eor-sdc3b
+
+Lease name: az-caas-yl871-cpu-projects
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.general.small
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.himem.half
+
+OS_CLOUD set to : ska-teal-lofar-multiwavelength
+
+Lease name: az-caas-bb23-2mm
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.general.small
+  reservation amount: 2
+  resource_properties name: vm.ska.cpu.himem.v2.half
+Lease name: az-caas-la-basic
+  reservation amount: 1
+  resource_properties name: vm.ska.cpu.general.small
