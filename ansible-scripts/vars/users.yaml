@@ -1,0 +1,21 @@
+users:
+  - name: sm2921
+    pubkey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID+EG8RxOjPYnRTBiOqNNi9Mq9az6e8g7iMHAfpVMExh"
+    groups: "wheel"
+    shell: "/bin/bash"
+    sudoers: "ALL=(ALL) NOPASSWD: ALL"
+  - name: sb2882
+    pubkey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIjGp6YxtuMFrmWAdmtPj8LVX2XK2z5RdVm5BZYE+2rr"
+    groups: "wheel"
+    shell: "/bin/bash"
+    sudoers: "ALL=(ALL) NOPASSWD: ALL"
+  - name: jradcliffe5
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmTBH063HKPH2csgoNgHdBH97/5WO7EZfDXPEO+9mYZSB9ZX6xu08Wf3MpKN2rEYTp1iEIdJ8B8iAwa8QOBgWm/xcBFMVrkNhMP+RBFOjoMw/GGlgrRTuc6BLsSZNdeFi9BUdbbz5E8MJH/rBEAxFHXMD5KZaQh7K7hopHXNc4vXyoX837DAnbL/FN1I6PQh1Ba/qwfc2fuvE9WS88xButBrZ6GdAH4LlPSkGLu8sbbdi386UrA+S1ACzL43WxHtr13wBE/UPGHDUPupHTpuc0P3e4Cl4PvU0I3kkZT3yXmUStUTFjLLRx9pcSDuymZzwWp5BoiavTFP2NSr00aUq1"
+    groups: "wheel"
+    shell: "/bin/bash"
+    sudoers: "ALL=(ALL) NOPASSWD: ALL"
+  - name: mjh
+    pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDMRx0pHR0tUFO/wfyf/hxLMsvWQwQiNZ5RVdJbY5s/PAQmVIPcmXwLWQx9+vmBzDVD72v/rZ6c/JERiP9ArUg8pD7pOkNNoDQw1Fia9bpIjRdFdq+o4TjQE/jcAK1EcHiXMFULAQ6ClGj+IV2OOMLt9w17Rzs+3oYpaHzmvyH3DmtSkMY6QqOKq+EFPi1oxPoZasm2MQy+jJfoGgIY8g0EstLfCRypCzjh1IKOHEzDv3CMYgLsA57qrwWa/bDwagJlxUl/dk3MwoGZAmsLE5Uc6LDAM7jCQCkWV40e2mGD6UoVDMOoVmMnsvmfyOyWs65VsbQV4wYofJqn9ziAdWo7yfnAziuht8goKRyMwBLX1Ii+UotdQTX5FQTH0VrEcW+If5mxxhOvo+9fZLRcrf5l6yaNkX3WFLuTFHBFjNqfo04mEnS1jWGmgPSzxOP6nRlcue0xTXpYn7VN879zmpJBG09TzNcK2e7LGBP/vC6ikp8HMFLGahKDAXqLI7BvWw0= mjh@chelone"
+    groups: "wheel"
+    shell: "/bin/bash"
+    sudoers: "ALL=(ALL) NOPASSWD: ALL"

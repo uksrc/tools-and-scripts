@@ -1,0 +1,43 @@
+---
+- name: Create users and deploy their SSH keys
+  hosts: slurm
+  become: true
+  vars_files: 
+    - vars/users.yaml
+  tasks:
+    - name: Create user accounts
+      user:
+        name: "{{ item.name }}"
+        comment: "{{ item.comment | default(omit) }}"
+        shell: "{{ item.shell | default('/bin/bash') }}"
+        groups: "{{ item.groups | default(omit) }}"
+        uid: "{{ item.uid | default(omit) }}"
+        create_home: true
+        state: present
+      loop: "{{ users }}"
+
+    - name: Ensure .ssh directory exists
+      file:
+        path: "/home/{{ item.name }}/.ssh"
+        state: directory
+        owner: "{{ item.name }}"
+        group: "{{ item.name }}"
+        mode: '0700'
+      loop: "{{ users }}"
+
+    - name: Install authorized_keys for each user
+      authorized_key:
+        user: "{{ item.name }}"
+        key: "{{ item.pubkey }}"
+        state: present
+        path: "/home/{{ item.name }}/.ssh/authorized_keys"
+      loop: "{{ users }}"
+
+    - name: Configure sudoers for users
+      lineinfile:
+        path: "/etc/sudoers.d/{{ item.name }}"
+        create: yes
+        state: present
+        line: "{{ item.name }} {{ item.sudoers }}"
+        validate: 'visudo -cf %s'
+      loop: "{{ users }}"
